@@ -1,0 +1,319 @@
+html {
+    color: #202322;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+  /*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+ fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+ textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   /* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open-Sans", sans-serif;
+    font-size: 1em;
+    text-align: left;
+  
+}
+
+ul, ol {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    text-decoration: none;
+    color: #202322;
+ }
+
+h1 {
+    font-family: 'Alike', sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  h2,
+  h3,
+  h4 {
+  font-family: 'Alike', serif;
+  font-weight: 700;
+  font-size: 1.125em;
+  margin: 20px 0;
+  }
+
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875em;
+    line-height: 1.285;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+  
+      /* -------------------- Base Header - Footer Styles -------------------- */
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: #FFE8D6;
+}
+      
+header {
+    padding: 15px 0;
+}
+      
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+/* ----- NAV ------ */
+
+.navbar {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  max-width: 1600px;
+  margin: 0 auto;
+  column-gap: 2rem;
+  background: #FFE8D6;
+  padding: 16px;
+  
+}
+
+.navbar.active {
+  display: flex; /* Display the navbar when active */
+  position: absolute; /* Adjust positioning as needed */
+  top: 0; /* Adjust positioning as needed */
+  left: 0; /* Adjust positioning as needed */
+}
+
+button i {
+  font-size: 2em;
+  padding: 0.5rem;
+  background-color: var(--light-grey);
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#toggleBtn {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 25px; /* Adjust the right position as needed */
+  border: none;
+  background-color: transparent;
+  border-radius: 60px;
+  color: inherit;
+  padding: 1em 1em;
+}
+
+.menu {
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+
+/* ------------------------------- Mobile Styles -------------------------------- */
+
+/* ---------- Hero Area ---------- */
+
+.homepage-hero {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  color: #202322;
+  min-height: 500px;
+}
+
+.hero-heading {
+  font-size: 2.25em;
+  font-family: 'Alike', sans-serif;
+  font-weight: 500; 
+  line-height: 1.2; 
+}
+
+.hero-subheading {
+  font-size: 1.75em;
+  font-family: 'Alike', sans-serif;
+}
+
+/* ----------  About ---------- */
+
+#about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#about h3 {
+
+} 
+
+#about p {
+
+}
+
+
+/* ----------  Projects ---------- */
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#projects h3 {
+  margin: 80px 0 20px 0;
+}
+
+.project-container {
+  border: 5px solid #E9967A;
+}
+
+.project-item h4 {
+  margin: 20px 0px 40px 0px;
+}
+
+.project-description p {
+  margin-bottom: 30px;
+}
+
+.project-description h5 {
+  margin-bottom: 40px;
+}

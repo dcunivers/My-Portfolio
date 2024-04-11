@@ -195,13 +195,16 @@ header {
 nav ul {
   display: flex;
   justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
+  visibility: hidden;
 }
 
 header nav ul li {
   font-size: 1.125em;
   background: #ece7e1;
   border-radius: 5px;
-  padding: 5px 25px;
+  padding: 5px 15px;
   font-weight: 700;
 }
 
@@ -268,8 +271,9 @@ footer .social-icons p {
 p#email-header {
   padding-top: 20px;
   padding-bottom: 60px;
-  font-size: 1.45em;
-  font-style: normal
+  font-size: 1.1em;
+  font-style: normal;
+  line-height: 1.2;
 }
 
 footer .social-icons p i {
@@ -286,8 +290,9 @@ footer .contact {
 /* ---------- Hero Area ---------- */
 
 .section-container {
-  padding: 80px 20px;
+  padding: 20px;
   justify-content: left;
+  min-height: 500px;
 }
 
 .section-left {
@@ -477,7 +482,7 @@ figure {
     }
   
     header nav ul li {
-      font-size: 1rem;
+      font-size: .7rem;
     }
 
     /* element margins */
@@ -508,7 +513,11 @@ figure {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    flex-flow: row wrap;
+    align-items: left;
+    visibility: visible;
   }
+
 
   button {
     display: none;

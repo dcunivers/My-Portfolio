@@ -296,6 +296,7 @@ footer .contact {
 }
 
 .section-left {
+  margin-top: 12%;
   padding: 40px 30px 60px 30px;
 }
 
@@ -631,7 +632,7 @@ figure {
  }
 
 
- .section-container, #projects {
+#projects {
     padding: 40px 0px;
  }
 
@@ -657,7 +658,7 @@ figure {
  }
 
  .section-right {
-  padding: 20px 20px 20px 80px;
+  padding: 0px 20px 20px 80px;
  }
 
   #profile-img {

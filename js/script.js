@@ -1,5 +1,5 @@
 const menuButton = document.querySelector("#toggleBtn");
-const menu = document.querySelector(".navbar");
+const menu = document.querySelector(".header-divider");
 
 
 document.addEventListener('DOMContentLoaded', function() {

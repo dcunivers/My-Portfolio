@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html class="no-js" lang="EN">
-  <title>Dana Develops</title>
 
 <head>
+  <title>Dana Develops</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,97 +18,138 @@
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="script" href="js/script.js">
 
   <script src="https://kit.fontawesome.com/24ffb8fcf4.js" crossorigin="anonymous"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alike&family=Italianno&family=Parisienne&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Metal&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
   
-  
-  <script type="module" src="../js/script.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
 
   <!-- Nav Bar -->
-  <header>
-    <div class="navbar">
-          <nav class="menu">
+
+  <header id="top-of-page">
+    <div class="content-wrapper">
+      <div class="header-divider">
+      <button id="toggleBtn" aria-expanded="false">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+          <nav>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#top-of-page">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Portfolio</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
+        </div>
      </div>
-     <button id="toggleBtn" aria-expanded="false">
-      <i class="fa-solid fa-bars" aria-hidden="true"></i></button>
-    </header>
+  </header>
 
   <!-- Hero Header -->
-  <header class="homepage-hero">
+  <div id="hero-area">
     <div class="content-wrapper">
-        <h1 class="hero-heading"> Hi, my name is Dana!</div>
-        <h2 class="hero-subheading"> I'm a freelance web developer based in NY, traveling the world.</div>
+      <div class="section-container">
+        <div class="section-left">
+          <h1 class="hero-heading"> Dana Conlin </h1>
+          <h4 class="hero-subheading"> Freelance Web Developer, <br> Model, & Content Creator. </h4>
+        </div>
+
+        <div class="section-right">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </header>
+  </div>
+
 
   <!-- About -->
   <main>
     <section id="about">
       <div class="content-wrapper">
-      <h3> A little about me...</h3>
-      <p> I'm drawn to web development because it's like solving puzzles on a Friday night – irresistibly engaging and endlessly rewarding. I genuinely find joy in learning different coding languages and solving challenges head-on. Crafting memorable websites is not just a job for me; it's a creative outlet where I can bring ideas to life.</p>
-      <p> Beyond the digital world, you'll find me in front of the camera, hiking with my dog, having dinners with friends, or traveling the world.
-          Development, for me, is not just about lines of code – it's about weaving a story through technology that reflects the diverse tapestry of my interests and experiences.</p>
-    </div>
+        <figure>
+            <img src="img/IMG_6177.jpeg" alt id="profile-img">
+        </figure>
+      <div class="about-info">
+        <h2> Hi, I'm Dana. </h2>
+        <h4> A little about me...</h4>
+        <p> I'm a developer, model, and problem solver. I'm drawn to web development because it's like solving puzzles on a Friday night – irresistibly engaging and endlessly rewarding. I genuinely find joy in learning different coding languages and solving challenges head-on. Crafting memorable websites is not just a job for me; it's a creative outlet where I can bring ideas to life.</p>
+        <p><br> Beyond the digital world, you'll find me in front of the camera, doing some sort of physical activity (mainly with my dog, Harley), having dinners with friends, or traveling the world.
+            Development, for me, is not just about lines of code – it's about weaving a story through technology that reflects the diverse tapestry of my interests and experiences.
+          <br><i> ~ xo</i></p>
+          </div>
+      </div>
     </section>
 
     <!-- Projects -->
     <section id="projects">
       <div class="content-wrapper">
         <h3>Projects</h3>
-        <div class="project-container"><a href="https://dcunivers.github.io/unplugged-retreat-project/" target="_blank">
-          <div class="project-item">
+
+        <div class="project-container">
+          <div class="project-item"><a href="https://dcunivers.github.io/unplugged-retreat-project/" target="_blank">
+            <img src="img/Unplugged-Retreat.png" alt="Unplugged Retreat">
             <h4>Unplugged Retreat Website</h4>
-              <img src>
             <div class="project-description">
               <p>Build a 3-page responsive website from a design comp called “Unplugged Retreat.”  Adapts to mobile, tablet, and desktop screens, using media queries, responsive typographies, and flexbox.</p>
-              <h5>Skills: HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</h5>
-              </a>
+              <div class="skills-tools">
+              <p><strong>Skills: </strong> HTML5, CSS3, Flexbox, Media Queries, Responsive Typography
+              <br><strong>Tools: </strong> GitHub, Text editors </p>
+              </div>
+            </div>
+           </a>
           </div>
-        </div>
 
-        <div class="project-container">
-          <div class="project-item">
-            <a href="https://dcunivers.github.io/Guess-The-Word-Project/" target="_blank"></a>
+          <div class="project-item"><a href="https://dcunivers.github.io/Guess-The-Word-Project/" target="_blank">
+            <img src="img/Guess-The-Word.png" alt="Guess The Word Game">
             <h4>Guess The Word Game</h4>
-              <img src>
               <div class="project-description">
                 <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
-                <h5> Skills: Manipulate the DOM, JavaScript
-                <br> Tools: GitHub</h5>
+                <div class="skills-tools">
+                <p><strong>Skills: </strong> Manipulate the DOM, JavaScript
+                <br><strong>Tools: </strong> GitHub</p>
+                </div>
               </div>
+            </a>
           </div>
-        </div>
 
-        <div class="project-container">
-          <div class="project-item">
-            <h4>Sticky Notes UI</h4>
-              <img src>
+          <div class="project-item"><a href=" https://dcunivers.github.io/Sticky-Notes-App/" target="_blank">
+            <img src="img/superstickynotes.png" alt="Sticky Notes App">
+            <h4>Sticky Notes App</h4>
               <div class="project-description">
                 <p>Created an interactive app that will let users create “sticky notes” on their computer to keep track of to-do items. Able to search, delete, and add notes.</p>
-                <h5> Skills: ES6, JSX, Managing data flow, Manipulate the DOM
-                <br> Tools: CodeSandbox </h5>
+                <div class="skills-tools">
+                <p> <strong>Skills: </strong> ES6, JSX, Managing data flow, Manipulate the DOM
+                <br><strong>Tools: </strong> CodeSandbox </p>
+                </div>
               </div>
+            </a>
           </div>
+
+          <div class="project-item"><a href="https://dcunivers.github.io/Jubilee-Austen-Portfolio/" target="_blank">
+            <img src="img/Jubilee-Austen.png" alt="Jubilee Austen">
+            <h4>Jubilee Austen</h4>
+              <div class="project-description">
+                <p>Coded a one page static website based on design comp</p>
+                <div class="skills-tools">
+                <p> <strong>Skills: </strong> CSS3, HTML5
+                <br><strong>Tools: </strong> Chrome DevTools, Text editors </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        
         </div>
       </div>
     </section>
@@ -116,83 +157,23 @@
     <!-- Skills -->
     <section id="skills">
       <div class="content-wrapper">
-        <h3> Skills </h3>
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">HTML5</div>
-        </div>
+        <h3 class="skills-header"> Skills </h3>
 
         <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">CSS3</div>
+          
+          <p class="skill">HTML5</p>
+          <p class="skill">CSS3</p>
+          <p class="skill">Javascript</p>
+          <p class="skill">React</p>
+          <p class="skill">Wordpress</p>
+          <p class="skill">Chrome DevTools</p>
+          <p class="skill">Git</p>
+          <p class="skill">Github</p>
+          <p class="skill">Photoshop</p>
+          <p class="skill">CodeSandbox</p>
+        
         </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Javascript</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">React</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Wordpress</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Chrome DevTools</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Text editors</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Git</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Github</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">Photoshop</div>
-        </div>
-
-        <div class="skill-container">
-          <div class="cardimg">
-            <img src>
-          </div>
-          <div class="caption">CodeSandbox</div>
-        </div>
+      
       </div>
     </section>
   </main>
@@ -201,27 +182,27 @@
   <footer id="contact">
     <div class="content-wrapper">
       <div class="contact-info">
-        <h2>Let's connect</h2>
-        <h3 id="email-header">
-          <a href="mailto:danaconlin.developer@gmail.com"></a>
-        <h3 id="socialmedia-header">Or find me on social media</h3>
+        <h4>Looking for a stunning and professionally organized website? <b>Let's connect.</b></h4>
+        <p id="email-header">
+          <a href="mailto:danaconlin.developer@gmail.com"> danaconlin.developer@gmail.com</a></p>
+        <h4 id="socialmedia-header"><b>Follow me</b></h4>
           <div class="social-icons">
             <p>
-              <a href="" target="_blank"></a>
+              <a href="https://www.linkedin.com/in/danaconlin/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
+              </a>
             </p>
             <p>
-              <a href="https://github.com/dcunivers" target="_blank"></a>
+              <a href="https://github.com/dcunivers" target="_blank">
                 <i class="fa-brands fa-github"></i>
+                </a>
             </p>
-          </ul>
-        </h3>
+          </div>
       </div>
     </div>
 
   </footer>
   
-
 </body>
 
 </html>

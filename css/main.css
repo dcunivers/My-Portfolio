@@ -285,7 +285,7 @@ footer #contact {
 }
 
 footer h4 {
-  padding-bottom: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 
@@ -294,7 +294,7 @@ footer h4 {
 /* ---------- Hero Area ---------- */
 
 .section-container {
-  padding: 20px;
+  padding: 10px;
   justify-content: left;
   min-height: 500px;
 }
@@ -340,7 +340,6 @@ footer h4 {
 .about-info {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
 }
 
 figure {
@@ -366,7 +365,7 @@ figure {
 #about p {
   padding-top: 10px;
   font-size: 1em;
-  text-align: left;
+  text-align: center;
   line-height: 25px;
 }
 
@@ -548,6 +547,10 @@ figure {
     height: 100%;
   }
 
+  #about p {
+    text-align: left;
+  }
+
   #about h2 {
     padding: 0px; 
   }
@@ -555,6 +558,14 @@ figure {
   #profile-img {
     width: 50%;
     }
+
+  .about-info {
+    padding-left: 40px;
+  }
+
+  #about h4 {
+    text-transform: none;
+  }
 
   /* Projects */
   #projects h3 {

@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleBtn.setAttribute('aria-expanded', !expanded);
   });
 
-  console.log(toggleBtn);
 });
 
 

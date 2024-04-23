@@ -213,10 +213,14 @@ header nav ul li:hover {
 }
 
 .navbar.active {
-  display: flex; /* Display the navbar when active */
-  position: absolute; /* Adjust positioning as needed */
+  display: flex;
+  position: absolute; 
   top: 0; 
   left: 0;
+}
+
+button {
+  display: none; /* working on JS*/
 }
 
 button i {
@@ -326,7 +330,6 @@ footer h4 {
 
 .hero-subheading {
   font-size: 1em;
-  padding-top: 20px;
 }
 
 /* ----------  About ---------- */
@@ -409,6 +412,7 @@ figure {
 .project-item img {
   filter: drop-shadow(1px 2px 6px lightgrey);
   margin: 20px 0px 40px 0px;
+  align-self: flex-start;
 }
 
 .project-description {
@@ -417,7 +421,6 @@ figure {
 
 .project-description p {
   margin-bottom: 30px;
-
 }
 
 .project-description h5 {
@@ -521,11 +524,6 @@ figure {
     align-items: left;
     visibility: visible;
   }
-
-
-  button {
-    display: none;
-  }
   
   nav {
     margin: 0 0 80px 0;
@@ -578,7 +576,7 @@ figure {
 
   .project-description {
     margin: 0 0 30px 0;
-    width: 95%;
+    width: 100%;
   }
 
   .project-link {
@@ -586,14 +584,17 @@ figure {
   }
 
    .project-container {
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
   }
 
   .project-item {
     width: 45%;
     align-items: center;
+    margin-bottom: 60px;
+    padding: 0 15px;
   }
-
 
 
   /* Skills */ 

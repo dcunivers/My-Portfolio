@@ -156,6 +156,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    min-height: 200px;
   }
 
   .section-container, #projects, #skills, #about {
@@ -346,7 +347,6 @@ footer h4 {
 }
 
 figure {
-  margin: 20px 0 40px 0;
   text-align: center
 }
 
@@ -381,10 +381,17 @@ figure {
   text-align: center;
 }
 
+#projects .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 40px 0;
+} 
+
 .project-container {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -395,15 +402,12 @@ figure {
 
 .project-item {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
   flex-flow: row wrap;
   border-radius: 15px;
   border: groove 1px grey;
   padding: 5px;
   margin-bottom: 30px;
-  flex-grow: 1;
 }
 
 .project-item:hover {
@@ -418,10 +422,10 @@ figure {
 }
 
 .project-description {
-  padding-left: 10px;
   display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
   flex-direction: column;
-  
 }
 
 .project-description p {
@@ -564,7 +568,7 @@ figure {
     }
 
   .about-info {
-    padding-left: 40px;
+    padding: 20px 0 0 40px;
   }
 
   #about h4 {
@@ -599,12 +603,12 @@ figure {
 
   .project-item {
     width: 45%;
-    align-items: center;
     margin-bottom: 60px;
-    padding: 0 15px;
+    padding: 10px 15px;
+    height: 550px;
   }
 
- 
+ .project-description p {}
 
   /* Skills */ 
   #skills {
@@ -660,7 +664,7 @@ figure {
 
 
 #projects {
-    padding: 40px 0px;
+    padding: 20px 0px;
  }
 
  .header-divider {
@@ -696,10 +700,12 @@ figure {
   .project-container {
     width: 100%;
     flex-wrap: nowrap;
+    
  }
 
   .project-item {
     margin: 0px 10px;
+ 
   }
 
    #skills .content-wrapper {

@@ -201,6 +201,8 @@ header nav ul li:hover {
   text-decoration: line-through;
 }
 
+ /* working on JS*/ 
+
 .navbar.active {
   display: flex;
   position: absolute; 
@@ -209,7 +211,7 @@ header nav ul li:hover {
 }
 
 button {
-  display: none; /* working on JS*/
+  display: none;
 }
 
 button i {
@@ -231,6 +233,7 @@ button i {
   color: inherit;
   padding: 1em 1em;
 }
+/* end of JS nav project */
 
 footer {
   flex-direction: column;
@@ -514,6 +517,7 @@ figure {
     position: fixed;
     transition: all .3s ease;
     padding: 20px 0;
+    z-index: 1000;
   }
 
   header nav ul {

@@ -518,6 +518,7 @@ figure {
     transition: all .3s ease;
     padding: 20px 0;
     z-index: 1000;
+    opacity: .95;
   }
 
   header nav ul {

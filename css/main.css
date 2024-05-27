@@ -387,7 +387,7 @@ figure {
 }
 
 #projects h4 {
-  margin: 20px 0px 40px 0px;
+  margin: 20px 0px 30px 0px;
   text-align: center;
 }
 
@@ -414,6 +414,7 @@ figure {
 
 .project-description {
   display: flex;
+  align-items: flex start;
   flex-grow: 1;
   padding-left: 10px;
   flex-direction: column;

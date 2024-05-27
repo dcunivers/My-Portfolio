@@ -15,15 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// menuButton.addEventListener("click", function (menu) {
-    //if (menu.classList.contains("show")) {
-        //menu.classList.remove("show");
-       // menuButton.classList.add("disappear");
-        //console.log(`Yes`);
-      //} else {
-     //   menu.classList.add("show");
-     //   menuButton.classList.remove("disappear");
-   //   }
-// });
-
-// console.log(menuButton)
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

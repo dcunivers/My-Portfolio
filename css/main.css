@@ -156,7 +156,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    max-height: 1000px;
   }
 
   .section-container, #projects, #skills, #about {
@@ -328,7 +327,7 @@ footer h4 {
 
 #about {
   padding: 80px 0px;
-  margin: auto;
+  margin: 0 auto;
   height: 100%;
 }
 

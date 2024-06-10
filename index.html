@@ -16,8 +16,8 @@
   <script src="https://kit.fontawesome.com/24ffb8fcf4.js" crossorigin="anonymous"></script>
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="script" href="js/script.js">
 
   <script src="https://kit.fontawesome.com/24ffb8fcf4.js" crossorigin="anonymous"></script>
@@ -34,19 +34,22 @@
 
   <!-- Nav Bar -->
 
-  <header id="top-of-page">
+  <header id="home">
     <div class="content-wrapper">
-      <button id="toggleBtn" aria-expanded="false">
-        <i class="fa-solid fa-bars" aria-hidden="true"></i></button>
-          <nav>
+      <a href="#home" class="active"></a>
+      <button id="toggleBtn" aria-expanded="false" onclick="navFunction()">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+          <nav id="navbar" class="hidden">
             <ul>
-              <li><a href="#top-of-page">Home</a></li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Portfolio</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
+     
      </div>
   </header>
 
@@ -170,6 +173,7 @@
           <p class="skill">Github</p>
           <p class="skill">Photoshop</p>
           <p class="skill">CodeSandbox</p>
+          <p class="skill">Working with APIs</p>
         
         </div>
       

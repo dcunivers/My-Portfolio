@@ -1,8 +1,13 @@
+@media (prefers-reduced-motion: no-preference) {
+
 html {
     color: #1a1818;
     font-size: 1em;
     line-height: 1.4;
-  }
+    scroll-behavior: smooth;  
+    }
+}
+  
 
   ::-moz-selection {
     background: #b3d4fc;
@@ -142,6 +147,7 @@ h1 {
 
   img {
     width: 100%;
+    object-fit: cover;
   }
   
   address {
@@ -182,12 +188,22 @@ footer {
       
 /* ----- NAV ------ */
 
+#home .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
   flex-flow: column;
   align-items: center;
-  visibility: hidden;
+  padding-top: 20px;
 }
 
 header nav ul li {
@@ -200,17 +216,23 @@ header nav ul li:hover {
   text-decoration: line-through;
 }
 
- /* working on JS*/ 
+  /* JS nav bar*/ 
 
-.navbar.active {
-  display: flex;
-  position: absolute; 
-  top: 0; 
-  left: 0;
+#navbar {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  padding: 20px 20px 20px 80px;
 }
 
-button {
-  display: none;
+#navbar.show {
+  display: block;
+}
+
+#navbar.active {
+  position: absolute;
+  top: 0; 
+  left: 0;
 }
 
 button i {
@@ -223,16 +245,23 @@ button i {
 }
 
 #toggleBtn {
-  position: absolute;
-  top: 44px;
-  right: 25px; 
+  position: relative;
+  
+  top: 15px;
+  right: 40px; 
   border: none;
   background-color: transparent;
   border-radius: 60px;
   color: inherit;
   padding: 1em 1em;
 }
-/* end of JS nav project */
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* end of JS nav */
 
 footer {
   flex-direction: column;
@@ -514,7 +543,6 @@ figure {
     width: 100%;
     text-transform: uppercase;
     background: #ece7e1;
-    position: fixed;
     transition: all .3s ease;
     padding: 20px 0;
     z-index: 1000;
@@ -525,10 +553,8 @@ figure {
     /* keep if using hamburger menu */
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     flex-flow: row wrap;
-    align-items: left;
-    visibility: visible;
   }
 
   
@@ -600,8 +626,6 @@ figure {
     padding: 10px 15px;
     height: 550px;
   }
-
- .project-description p {}
 
   /* Skills */ 
   #skills {

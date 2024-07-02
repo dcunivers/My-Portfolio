@@ -8,6 +8,9 @@ html {
     }
 }
   
+:root {
+   --animation-timing: 200ms ease-in-out;
+}
 
   ::-moz-selection {
     background: #b3d4fc;
@@ -203,7 +206,7 @@ nav ul {
   justify-content: space-between;
   flex-flow: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 header nav ul li {
@@ -227,6 +230,7 @@ header nav ul li:hover {
 
 #navbar.show {
   display: block;
+  transition: opacity var(--animation-timing), width var(--animation-timing);
 }
 
 #navbar.active {
@@ -245,10 +249,9 @@ button i {
 }
 
 #toggleBtn {
-  position: relative;
-  
-  top: 15px;
-  right: 40px; 
+  position: absolute;
+  top: 10px;
+  right: -80px;
   border: none;
   background-color: transparent;
   border-radius: 60px;
@@ -259,6 +262,7 @@ button i {
 .active {
   background-color: #04AA6D;
   color: white;
+  max-height: 200px;
 }
 
 /* end of JS nav */
@@ -522,8 +526,6 @@ figure {
       font-size: .7rem;
     }
 
-    /* element margins */
-  /* the list element have 20px of bottom margin already */
 
    /* header */
    header {
@@ -537,7 +539,6 @@ figure {
   }
 
   header nav {
-    /* keep if using hamburger menu */
     display: flex;
     justify-content: center;
     width: 100%;
@@ -550,14 +551,12 @@ figure {
   }
 
   header nav ul {
-    /* keep if using hamburger menu */
     display: flex;
     justify-content: space-between;
     width: 90%;
     flex-flow: row wrap;
   }
 
-  
   nav {
     margin: 0 0 80px 0;
   }

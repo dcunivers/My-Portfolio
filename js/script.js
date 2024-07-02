@@ -1,9 +1,18 @@
 
 function navFunction() {
-  var x = document.getElementById("navbar");
-  if (x.style.display === "block") {
-  x.style.display = "none";
-  } else {
-  x.style.display = "block";
+  const navmenu = document.getElementById("navbar");
+    if (navmenu.style.display === "block") {
+    navmenu.style.display = "none";
+    } else {
+  navmenu.style.display = "block";
   }
 };
+
+const toggleBtn = document.querySelector('#toggleBtn')
+const toggleBtnIcon = document.querySelector()
+const dropDownMenu = document.querySelector()
+
+toggleBtn.onClick = function () {
+  dropDownMenu.classList.toggle('open')
+  const isOpen = dropDownMenu.classList.contains('open')
+}

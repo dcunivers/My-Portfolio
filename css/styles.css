@@ -431,7 +431,7 @@ figure {
   flex-direction: column;
   flex-flow: row wrap;
   border-radius: 15px;
-  border: groove 1px grey;
+  border: groove 3px lightgrey;
   padding: 5px;
   margin-bottom: 30px;
 }

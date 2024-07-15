@@ -188,13 +188,17 @@ footer {
     display: flex;
     align-items: center;
 }
+
+#hero-area {
+  padding-top: 20px;
+}
       
 /* ----- NAV ------ */
 
 #home .content-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px;
     position: fixed;
     width: 100%;
     left: 0;
@@ -225,18 +229,18 @@ header nav ul li:hover {
   display: none;
   position: absolute;
   z-index: 1000;
-  padding: 20px 20px 20px 80px;
+  padding: 20px 0px 20px 100px;
 }
 
 #navbar.show {
   display: block;
-  transition: opacity var(--animation-timing), width var(--animation-timing);
 }
 
 #navbar.active {
   position: absolute;
   top: 0; 
   left: 0;
+  transition: max-height 0.5s ease-out;
 }
 
 button i {
@@ -250,7 +254,7 @@ button i {
 
 #toggleBtn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: -80px;
   border: none;
   background-color: transparent;
@@ -260,7 +264,6 @@ button i {
 }
 
 .active {
-  background-color: #04AA6D;
   color: white;
   max-height: 200px;
 }

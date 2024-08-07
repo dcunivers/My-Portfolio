@@ -98,7 +98,7 @@ ul, ol {
 
 a {
     text-decoration: none;
-    color: #202322;
+    color: #1a1818;
  }
 
 h1 {
@@ -146,6 +146,7 @@ h1 {
   p, li {
     line-height: 1.2;
     font-size: 1em;
+    color: #1a1818;
   }
 
   img {
@@ -176,7 +177,6 @@ h1 {
   }
 
   #about, #skills {
-    background: #1a1818;
     color: #ece7e1;
   }
 
@@ -197,12 +197,12 @@ footer {
 /* ----- NAV ------ */
 
 #home .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
@@ -215,6 +215,7 @@ nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  text-transform: uppercase;
   padding: 5px 15px;
   font-weight: 700;
 }
@@ -229,7 +230,8 @@ header nav ul li:hover {
   display: none;
   position: absolute;
   z-index: 1000;
-  padding: 20px 0px 20px 100px;
+  padding: 10px 0px 20px 100px;
+  margin-left: 35px;
 }
 
 #navbar.show {
@@ -254,8 +256,7 @@ button i {
 
 #toggleBtn {
   position: absolute;
-  top: 15px;
-  right: -30px;
+  right: 30px;
   border: none;
   background-color: transparent;
   border-radius: 60px;
@@ -268,15 +269,17 @@ button i {
   max-height: 200px;
 }
 
-/* end of JS nav */
+/* end of nav */
 
 footer {
   flex-direction: column;
   text-align: center;
+  color: #ece7e1;
 }
 
 footer p {
   margin: 0;
+  color: #ece7e1;
 }
 
 footer .content-wrapper {
@@ -288,6 +291,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ece7e1;
 }
 
 footer .social-icons p {
@@ -305,10 +309,12 @@ p#email-header {
   font-size: 1.1em;
   font-style: normal;
   line-height: 1.2;
+
 }
 
 footer .social-icons p i {
   font-size: 2em;
+  color: #ece7e1;
 }
 
 footer #contact {
@@ -328,6 +334,10 @@ footer h4 {
   padding: 10px;
   justify-content: left;
   min-height: 500px;
+}
+
+#hero-area.shifted {
+  margin-top: 260px;
 }
 
 .section-left {
@@ -429,8 +439,8 @@ figure {
 .project-item {
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
-  border: groove 3px lightgrey;
+  align-items: center;
+  border: solid 1px #1a1818;
   padding: 5px;
   margin-bottom: 30px;
 }
@@ -440,8 +450,7 @@ figure {
 }
 
 .project-item img {
-  filter: drop-shadow(1px 2px 6px lightgrey);
-  margin: 20px 0px 40px 20px;
+  margin: 20px 0px 40px 15px;
   width: 90%; 
  
 }
@@ -478,7 +487,6 @@ figure {
 .skill-header {
   margin-bottom: 20px;
 }
-
 
 .skill-container p {
   background: #ece7e1;
@@ -544,7 +552,6 @@ figure {
     display: flex;
     justify-content: center;
     width: 100%;
-    text-transform: uppercase;
     background: #ece7e1;
     transition: all .3s ease;
     padding: 20px 0;
@@ -566,6 +573,10 @@ figure {
   #navbar {
     padding: 0;
     padding-top: 20px;
+  }
+
+  #togglebtn {
+    right: -30px;
   }
 
   /* Hero Area */
@@ -602,7 +613,7 @@ figure {
 
   /* Projects */
   #projects h3 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .project-header {
@@ -620,15 +631,14 @@ figure {
   
    .project-container {
     display: flex;
-    justify-content: space-between; 
+  
     flex-wrap: wrap;
     align-items: flex-start;
     
   }
 
   .project-item {
-    width: 45%;
-    margin-bottom: 60px;
+    width: 30%;
     padding: 10px 15px;
     height: 550px;
   }
@@ -724,12 +734,11 @@ figure {
 
   .project-container {
     width: 100%;
-    flex-wrap: nowrap;
-    
+
  }
 
   .project-item {
-    margin: 0px 10px;
+    margin: 15px;
  
   }
 

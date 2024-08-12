@@ -245,6 +245,7 @@ header nav ul li:hover {
 }
 
 button i {
+  display: none;
   font-size: 1.75em;
   background-color: var(--light-grey);
   border-radius: 10px;
@@ -255,6 +256,7 @@ button i {
 }
 
 #toggleBtn {
+  display: none;
   position: absolute;
   right: 5%;
   border: none;

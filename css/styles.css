@@ -81,12 +81,12 @@ video {
     box-sizing: border-box;
 }
 
-
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     line-height: 20px;
     background: #ece7e1;
+    transition: background-color 0.3s ease-in-out;
 }
 
 ul, ol {
@@ -210,7 +210,7 @@ nav ul {
   justify-content: space-between;
   flex-flow: column;
   align-items: center;
-  padding-top: 15px;
+  padding: 20px 60px;
 }
 
 header nav ul li {
@@ -231,7 +231,6 @@ header nav ul li:hover {
   position: absolute;
   z-index: 1000;
   padding: 10px 0px 20px 100px;
-  margin-left: 35px;
 }
 
 #navbar.show {
@@ -252,16 +251,18 @@ button i {
   background-color: transparent;
   cursor: pointer;
   position: absolute;
+  z-index: 1001;
 }
 
 #toggleBtn {
   position: absolute;
-  right: 30px;
+  right: 5%;
   border: none;
   background-color: transparent;
   border-radius: 60px;
   color: inherit;
   padding: 1em 1em;
+  z-index: 1001;
 }
 
 .active {
@@ -270,60 +271,6 @@ button i {
 }
 
 /* end of nav */
-
-footer {
-  flex-direction: column;
-  text-align: center;
-  color: #ece7e1;
-}
-
-footer p {
-  margin: 0;
-  color: #ece7e1;
-}
-
-footer .content-wrapper {
-  width: 100%;
-  margin: 100px 0;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ece7e1;
-}
-
-footer .social-icons p {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-
-p#email-header {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  font-size: 1.1em;
-  font-style: normal;
-  line-height: 1.2;
-
-}
-
-footer .social-icons p i {
-  font-size: 2em;
-  color: #ece7e1;
-}
-
-footer #contact {
-  margin-bottom: 50px;
-}
-
-footer h4 {
-  padding: 0 20px 20px 20px;
-}
 
 
 /* ------------------------------- Mobile Styles -------------------------------- */
@@ -434,6 +381,7 @@ figure {
 #projects h4 {
   margin: 20px 0px 30px 0px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .project-item {
@@ -443,16 +391,11 @@ figure {
   border: solid 1px #1a1818;
   padding: 5px;
   margin-bottom: 30px;
+  background: #ece7e1;
 }
 
 .project-item:hover {
-  box-shadow: 2px 2px 2px 2px grey;
-}
-
-.project-item img {
-  margin: 20px 0px 40px 15px;
-  width: 90%; 
- 
+  box-shadow: 2px 2px 2px 2px gainsboro;
 }
 
 .project-description {
@@ -499,6 +442,68 @@ figure {
   font-size: 16px;
 }
 
+footer {
+  flex-direction: column;
+  text-align: center;
+  color: #ece7e1;
+}
+
+footer p {
+  margin: 0;
+  color: #ece7e1;
+}
+
+footer .content-wrapper {
+  width: 100%;
+  margin: 100px 0;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ece7e1;
+}
+
+footer .social-icons p {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+p#email-header {
+  padding: 10px;
+  margin: 0 auto;
+  width: 30%;
+  font-size: 1.1em;
+  font-style: normal;
+  line-height: 1.2;
+  background: #ece7e1;
+  border-radius: 30px;
+}
+
+#socialmedia-header {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+}
+
+footer .social-icons p i {
+  font-size: 2em;
+  color: #ece7e1;
+}
+
+footer #contact {
+  margin-bottom: 50px;
+}
+
+footer h4 {
+  margin-top: 30px;
+  padding: 0 20px 20px 20px;
+}
 
 
 
@@ -539,7 +544,7 @@ figure {
 
    /* header */
    header {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
    header .content-wrapper {
@@ -562,8 +567,10 @@ figure {
   header nav ul {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     flex-flow: row wrap;
+    padding: 20px 80px;
+    margin: 0;
   }
 
   nav {
@@ -572,10 +579,10 @@ figure {
 
   #navbar {
     padding: 0;
-    padding-top: 20px;
+
   }
 
-  #togglebtn {
+  #toggleBtn {
     right: -30px;
   }
 
@@ -689,7 +696,7 @@ figure {
 @media only screen and (min-width: 1200px) {
 
  .content-wrapper {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
@@ -697,6 +704,10 @@ figure {
     position: relative;
  }
 
+ #toggleBtn {
+  padding: 1.70em;
+  right: 20px;
+}
 
 #projects {
     padding: 20px 0px;
@@ -713,7 +724,6 @@ figure {
   #about h2, #about h4 {
     text-align: left;
   }
-
 
  .section-container {
     display: flex;

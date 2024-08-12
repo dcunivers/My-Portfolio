@@ -7,13 +7,11 @@ function navFunction() {
   const navmenu = document.getElementById("navbar");
     if (navmenu.style.display === "block") {
     navmenu.style.display = "none";
-    shiftedHeroArea.classList.remove('shifted')
+    
     } else {
     navmenu.style.display = "block";
-    shiftedHeroArea.classList.add('shifted')
   }
 };
-
 
 
 // Scroll Behavior page transition
@@ -23,7 +21,15 @@ document.addEventListener('scroll', () => {
   // Get the current scroll position
   const scrollTop = window.scrollY;
   // Calculate the scroll percentage (0 to 1)
-  const scrollPercentage = scrollTop / scrollableHeight;
+  let scrollPercentage = scrollTop / scrollableHeight;
+
+  // Make the transition faster and more abrupt by squaring the scroll percentage
+  
+  if (scrollPercentage > 0.2) {
+    scrollPercentage = Math.min(1, (scrollPercentage - 0.2) * 2); // Start faster after 20% scroll
+  } else {
+    scrollPercentage = 0; // No transition until 20% scroll
+  }
   
   // Interpolate the background color based on scroll percentage
   const startColor = [236, 231, 225] // Light color

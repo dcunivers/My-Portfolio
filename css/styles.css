@@ -103,7 +103,7 @@ a {
 
 h1 {
     font-family: "Playfair Display SC", serif;
-    font-weight: light;
+    font-weight: 200;
     font-style: normal;
     font-size: 1.875em;
     margin: 0;
@@ -281,7 +281,6 @@ button i {
 
 .section-container {
   padding: 10px;
-  justify-content: left;
   min-height: 500px;
 }
 
@@ -337,6 +336,11 @@ figure {
 
 #profile-img {
   width: 80%;
+}
+
+#about h2, 
+#about h4 {
+  color: #1a1818;
 }
 
 #about h2 {
@@ -642,14 +646,14 @@ footer h4 {
     display: flex;
   
     flex-wrap: wrap;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
   }
 
   .project-item {
-    width: 30%;
+    width: 40%;
     padding: 10px 15px;
     height: 550px;
+    margin: 5px;
   }
 
   /* Skills */ 
@@ -674,7 +678,6 @@ footer h4 {
    }
 
   .skill-container p {
-      margin: 20px;
       padding: 15px 0px;
     }
   

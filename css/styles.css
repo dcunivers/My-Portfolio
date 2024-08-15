@@ -103,7 +103,6 @@ a {
 
 h1 {
     font-family: "Playfair Display SC", serif;
-    font-weight: 400;
     font-style: normal;
     font-size: 1.875em;
     margin: 0;
@@ -448,6 +447,8 @@ figure {
   font-size: 16px;
 }
 
+/******** Contact/Footer ********/
+
 footer {
   flex-direction: column;
   text-align: center;
@@ -483,12 +484,14 @@ footer .social-icons p {
 p#email-header {
   padding: 10px;
   margin: 0 auto;
-  width: 30%;
-  font-size: 1.1em;
+  width: 90%;
+  font-size: .9em;
   font-style: normal;
   line-height: 1.2;
   background: #ece7e1;
-  border-radius: 30px;
+  border-radius: 2px;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 2px;
 }
 
 #socialmedia-header {
@@ -644,7 +647,6 @@ footer h4 {
   
    .project-container {
     display: flex;
-  
     flex-wrap: wrap;
     align-items: flex-start; 
   }
@@ -687,12 +689,14 @@ footer h4 {
   
   /*Footer*/
 
-  footer {
-    padding: 140px 0;
-  }
 
   footer {
+    padding: 140px 0;
     padding-bottom: 80px;
+  }
+
+  p#email-header {
+    width: 60%;
   }
 
 }
@@ -761,5 +765,8 @@ footer h4 {
     max-width: 90%;
   }
 
+  p#email-header {
+    width: 35%;
+  }
 
 }

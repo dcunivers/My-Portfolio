@@ -351,6 +351,7 @@ figure {
   font-family: "Metal", serif;
   padding-bottom: 30px;
   text-align: center;
+  text-transform: none;
 }
 
 #about p {
@@ -488,11 +489,11 @@ p#email-header a {
   padding: 10px;
   margin: 0 auto;
   width: 90%;
-  font-size: .9em;
+  font-size: .8em;
   font-style: normal;
   line-height: 1.2;
   color: #ece7e1;
-  font-family: "Playfair Display SC", serif;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -530,7 +531,7 @@ footer #contact {
     }
   
     h4 {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
   
     h5 {
@@ -614,10 +615,6 @@ footer #contact {
     padding: 20px 0 0 40px;
   }
 
-  #about h4 {
-    text-transform: none;
-  }
-
   /* Projects */
   #projects h3 {
     padding-bottom: 40px;
@@ -645,7 +642,7 @@ footer #contact {
   .project-item {
     width: 40%;
     padding: 10px 15px;
-    height: 550px;
+    height: 600px;
     margin: 5px;
   }
 
@@ -688,6 +685,7 @@ footer #contact {
 
   p#email-header a {
     width: 60%;
+    font-size: .9em;
   }
 
 }
@@ -708,10 +706,6 @@ footer #contact {
   padding: 1.70em;
   right: 20px;
 }
-
-#projects {
-    padding: 20px 0px;
- }
 
  .header-divider {
     padding: 16px;
@@ -742,14 +736,17 @@ footer #contact {
      float: left;
  }
 
+ #projects {
+  padding: 20px 0px;
+  }
+
   .project-container {
     width: 100%;
-
- }
+  }
 
   .project-item {
     margin: 15px;
- 
+    height: 650px;
   }
 
    #skills .content-wrapper {

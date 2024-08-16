@@ -130,7 +130,7 @@ h1 {
   }
 
   h4 {
-   font-size: 1em;
+   font-size: 1.2em;
    line-height: 1.2;
    width: 100%
   }
@@ -413,7 +413,6 @@ figure {
 
 .project-description p {
   margin-bottom: 30px;
-  font-size: .9em;
 }
 
 .project-description h5 {
@@ -444,7 +443,7 @@ figure {
   padding: 15px 50px;
   margin: 20px 0;
   font-family: "Playfair Display SC", serif;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 /******** Contact/Footer ********/

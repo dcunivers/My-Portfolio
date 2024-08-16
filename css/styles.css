@@ -405,7 +405,7 @@ figure {
 
 .project-description {
   display: flex;
-  align-items: flex start;
+  align-items: flex-start;
   flex-grow: 1;
   padding-left: 10px;
   flex-direction: column;

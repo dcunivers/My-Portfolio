@@ -454,6 +454,12 @@ footer {
   color: #ece7e1;
 }
 
+
+footer h4 {
+  margin-top: 30px;
+  padding: 0 20px 60px 20px;
+}
+
 footer p {
   margin: 0;
   color: #ece7e1;
@@ -480,7 +486,7 @@ footer .social-icons p {
   padding: 40px;
 }
 
-p#email-header {
+p#email-header a {
   padding: 10px;
   margin: 0 auto;
   width: 90%;
@@ -506,11 +512,6 @@ footer .social-icons p i {
 
 footer #contact {
   margin-bottom: 50px;
-}
-
-footer h4 {
-  margin-top: 30px;
-  padding: 0 20px 20px 20px;
 }
 
 

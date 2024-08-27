@@ -420,10 +420,6 @@ figure {
   margin-bottom: 40px;
 }
 
-.skills-tools {
-  
-}
-
 
 /******** Skills *********/
 
@@ -612,7 +608,7 @@ footer #contact {
     }
 
   .about-info {
-    padding: 20px 0 0 40px;
+    padding-left: 60px;
   }
 
   /* Projects */
@@ -734,6 +730,7 @@ footer #contact {
   #profile-img {
      width: 30%;
      float: left;
+     padding-top: 41px;
  }
 
  #projects {

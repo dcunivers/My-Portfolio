@@ -502,6 +502,9 @@ footer #contact {
   margin-bottom: 50px;
 }
 
+footer .social-icons p i:hover {
+  color: darkgray;
+}
 
 
 /* ==========================================================================

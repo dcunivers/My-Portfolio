@@ -733,6 +733,7 @@ footer .social-icons p i:hover {
   #profile-img {
      width: 40%;
      float: left;
+     padding-top: 10px;
  }
 
  #projects {

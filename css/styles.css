@@ -357,10 +357,9 @@ figure {
 #about p {
   padding-top: 10px;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
   line-height: 25px;
 }
-
 
 /* ----------  Projects ---------- */
 
@@ -598,10 +597,6 @@ footer .social-icons p i:hover {
     height: 100%;
   }
 
-  #about p {
-    text-align: left;
-  }
-
   #about h2 {
     padding: 0px; 
   }
@@ -612,6 +607,10 @@ footer .social-icons p i:hover {
 
   .about-info {
     padding-left: 60px;
+  }
+
+  #about-info p {
+    text-align: left;
   }
 
   /* Projects */

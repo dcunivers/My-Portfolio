@@ -327,6 +327,7 @@ button i {
 .about-info {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
 }
 
 figure {
@@ -335,6 +336,7 @@ figure {
 
 #profile-img {
   width: 80%;
+  border: solid black 4px;
 }
 
 #about h2, 
@@ -602,11 +604,11 @@ footer .social-icons p i:hover {
   }
   
   #profile-img {
-    width: 50%;
+    width: 60%;
     }
 
   .about-info {
-    padding-left: 60px;
+    padding: 20px;
   }
 
   #about-info p {
@@ -614,6 +616,9 @@ footer .social-icons p i:hover {
   }
 
   /* Projects */
+  #projects .content-wrapper {
+    max-width: none;
+  }
   #projects h3 {
     padding-bottom: 40px;
   }
@@ -709,6 +714,8 @@ footer .social-icons p i:hover {
     padding: 16px;
  }
 
+  
+
   #about {
     padding: 140px 0px;
   }
@@ -716,6 +723,10 @@ footer .social-icons p i:hover {
   #about h2, #about h4 {
     text-align: left;
   }
+  .about-info {
+    padding: 0 0px 0 50px;
+  }
+  
 
  .section-container {
     display: flex;
@@ -730,9 +741,8 @@ footer .social-icons p i:hover {
  }
 
   #profile-img {
-     width: 40%;
+     width: 37%;
      float: left;
-     padding-top: 10px;
  }
 
  #projects {

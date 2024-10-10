@@ -472,7 +472,7 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
   color: #ece7e1;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 footer .social-icons p {
@@ -482,7 +482,7 @@ footer .social-icons p {
   padding: 10px;
 }
 
-p#email-header a {
+p#email-header {
   padding: 10px;
   margin: 0 auto;
   width: 90%;
@@ -505,6 +505,11 @@ footer #contact {
 
 footer .social-icons p i:hover {
   color: darkgray;
+}
+
+.copyright {
+  font-size: .8em;
+  padding-right: 5px;
 }
 
 

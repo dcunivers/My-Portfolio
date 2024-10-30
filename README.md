@@ -17,16 +17,16 @@ I have a diverse background as a fashion model and brand ambassador. With over 8
 
 Here are some highlights from my portfolio:
 
-- **[Guess The Word Game](#)**  
+- **[Guess The Word Game](#https://dcunivers.github.io/Guess-The-Word-Project/)**  
   Players guess the word by entering one letter at a time. Skills learned: manipulate the DOM, Javascript.
 
-- **[Sticky Notes](#)**  
+- **[Sticky Notes](#https://p7c634.csb.app/)**  
   Greenfield project that lets users create Sticky Notes in a web application, using lifecylce methods. Skills learned: ES6, JSX, managing data flow, manipulate the DOM.
 
-- **[Unplugged Retreat Website](#)**  
+- **[Unplugged Retreat Website](#https://dcunivers.github.io/unplugged-retreat-project/)**  
   3-pg responsive website from design comp called unplugged retreat. Skills learned: HTML5, CSS3, Flexbox, Mediaqueries, Responsive Typography
 
-- **[Github Repo Gallery](#)**  
+- **[Github Repo Gallery](#https://dcunivers.github.io/Github-Repo-Gallery/)**  
   1-pg static website that pulls data from personal github portfolio to create a gallery of repos. Skills learned: APIs, manipulate the DOM.
 
 ## Developer Skills & Tech Stack

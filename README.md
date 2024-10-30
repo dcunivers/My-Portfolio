@@ -24,10 +24,10 @@ Here are some highlights from my portfolio:
   Greenfield project that lets users create Sticky Notes in a web application, using lifecylce methods. Skills learned: ES6, JSX, managing data flow, manipulate the DOM.
 
 - **[Unplugged Retreat Website](https://dcunivers.github.io/unplugged-retreat-project/)**  
-  3-pg responsive website from design comp called unplugged retreat. Skills learned: HTML5, CSS3, Flexbox, Mediaqueries, Responsive Typography
+  3-pg responsive website from design comp called Unplugged Retreat. Skills learned: HTML5, CSS3, Flexbox, Mediaqueries, Responsive Typography
 
 - **[Github Repo Gallery](https://dcunivers.github.io/Github-Repo-Gallery/)**  
-  1-pg static website that pulls data from personal github portfolio to create a gallery of repos. Skills learned: APIs, manipulate the DOM.
+  1-pg static website that pulls data from personal Github portfolio to create a gallery of repos. Skills learned: APIs, manipulate the DOM.
 
 ## Developer Skills & Tech Stack
 

@@ -6,7 +6,7 @@ Welcome to my portfolio! I am a front-end developer with a background in fashion
 
 - [About Me](#about-me)
 - [Portfolio](#projects)
-- [Tech Stack](#skills)
+- [Dev Skills & Tech Stack](#skills)
 - [Contact](#contact)
 
 ## About Me
@@ -29,7 +29,7 @@ Here are some highlights from my portfolio:
 - **[Github Repo Gallery](#)**  
   1-pg static website that pulls data from personal github portfolio to create a gallery of repos. Skills learned: APIs, manipulate the DOM.
 
-## Tech Stack
+## Developer Skills & Tech Stack
 
 I work with a variety of technologies, including:
 
@@ -37,6 +37,14 @@ I work with a variety of technologies, including:
 - CSS
 - JavaScript
 - React & Node.js
+- WordPress
+- Chrome DevTools
+- Github Pages
+- Photoshop
+- Figma
+- CodeSandbox
+- Visual Studio Code
+- Working with APIs
 
 ## Contact
 

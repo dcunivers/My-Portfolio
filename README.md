@@ -29,7 +29,7 @@ Here are some highlights from my portfolio:
 - **[Github Repo Gallery](https://dcunivers.github.io/Github-Repo-Gallery/)**  
   1-pg static website that pulls data from personal Github portfolio to create a gallery of repos. Skills learned: APIs, manipulate the DOM.
 
-## Developer Skills & Tech Stack
+## Skills
 
 I work with a variety of technologies, including:
 

@@ -16,14 +16,14 @@ function navFunction() {
 
 // Scroll Behavior page transition
 document.addEventListener('scroll', () => {
-  // total scrollable height of the document
+  // total scrollable height
   const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-  // Get the current scroll position
+  // the current scroll position
   const scrollTop = window.scrollY;
   // Calculate the scroll percentage (0 to 1)
   let scrollPercentage = scrollTop / scrollableHeight;
 
-  // Make the transition faster and more abrupt by squaring the scroll percentage
+  // faster transition and more abrupt by squaring the scroll percentage
   
   if (scrollPercentage > 0.2) {
     scrollPercentage = Math.min(1, (scrollPercentage - 0.2) * 2); // Start faster after 20% scroll

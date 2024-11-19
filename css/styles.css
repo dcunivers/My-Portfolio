@@ -324,6 +324,12 @@ button i {
   height: 100%;
 }
 
+#about .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
 .about-info {
   display: flex;
   flex-direction: column;
@@ -335,7 +341,7 @@ figure {
 }
 
 #profile-img {
-  width: 80%;
+  width: 50%;
   border: solid black 4px;
 }
 
@@ -726,6 +732,11 @@ footer .social-icons p i:hover {
   #about h2, #about h4 {
     text-align: left;
   }
+
+  #about .content-wrapper {
+    flex-flow: row; 
+    width: 100%;
+  }
   .about-info {
     padding: 0 0px 0 50px;
   }
@@ -742,9 +753,12 @@ footer .social-icons p i:hover {
   padding: 0px 20px 20px 80px;
  }
 
+ .img-section {
+
+ }
+
   #profile-img {
-     width: 37%;
-     float: left;
+     width: 60%;
  }
 
  #projects {

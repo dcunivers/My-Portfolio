@@ -343,6 +343,7 @@ figure {
 #profile-img {
   width: 50%;
   border: solid black 4px;
+  border-radius: 10px;
 }
 
 #about h2, 
@@ -402,6 +403,7 @@ figure {
   flex-direction: column;
   align-items: center;
   border: solid 1px #1a1818;
+  border-radius: 10px;
   padding: 5px;
   margin-bottom: 30px;
   background: #ece7e1;
@@ -443,7 +445,7 @@ figure {
   background: #ece7e1;
   border: solid 1px #ece7e1;
   color: #1a1818;
-  border-radius: 2px;
+  border-radius: 10px;
   padding: 15px 50px;
   margin: 20px 0;
   text-transform: uppercase;

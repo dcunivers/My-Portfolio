@@ -29,9 +29,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Metal&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet">
   
   <script src="js/script.js"></script>
+  <script src="/app.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+  <script>
+    const { animate, scroll } = Motion
+  </script>
+  <script>
+    document.body.style.setProperty(
+      "--accent",
+      `var(--hue-${Math.ceil(Math.random() * 7) - 1})`
+    );
+  </script>
 </head>
 
 <body>
@@ -57,7 +68,8 @@
      </div>
   </header>
 
-  <!-- Hero Header -->
+  <main>
+    <!-- Hero Header -->
   <div id="hero-area">
     <div class="content-wrapper">
       <div class="section-container">
@@ -78,9 +90,7 @@
     </div>
   </div>
 
-
-  <!-- About -->
-  <main>
+   <!-- About -->
     <section id="about">
       <div class="content-wrapper">
         <figure class="img-section">
@@ -89,7 +99,7 @@
       <div class="about-info">
         <h2> Hi, I'm Dana. </h2>
         <h4> A little about me...</h4>
-        <p>  I'm a front-end developer with a passion for fashion, specializing in crafting visually stunning and user-friendly websites. </p>
+        <p>  I'm a front-end developer with a background in modeling, specializing in crafting visually stunning and user-friendly websites. </p>
         <p><br> I've always been curious about learning new languages (and cultures), seeing how things work, and creating with my own hands. My experience as a model has given me the freedom and drive in learning to code. 
           Crafting memorable websites is another creative outlet that reflects the diverse tapestry of my interests and experiences.</p>
         <p><br> When I'm not in between lines of code, you'll find me in front of the camera, doing some workout or physical activity (mainly with my dog, Harley), having cozy dinners with friends, or traveling the world.

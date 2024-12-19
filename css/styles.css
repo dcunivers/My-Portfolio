@@ -82,7 +82,7 @@ video {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 1em;
     line-height: 20px;
     background: #ece7e1;
@@ -110,7 +110,7 @@ h1 {
   }
 
   h2 {
-    font-family: "Chonburi", serif;
+    font-family: "M PLUS 2", sans-serif;
     font-size: 1.75em;
   }
 
@@ -119,24 +119,26 @@ h1 {
    width: 100%
   }
 
-  h3, h4 {
-    font-family: "Metal", serif;
-    text-transform: uppercase;
-  }
-
   h3 {
+    font-family: "M PLUS 2", sans-serif;
+    font-weight: 300;
     font-size: 2em;
     margin: 20px 0 40px 0;
   }
 
+  h3, h4 {
+    text-transform: uppercase;
+  }
+
   h4 {
+   font-family: "Metal", serif;
    font-size: 1.2em;
    line-height: 1.2;
    width: 100%
   }
 
   p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'M PLUS 2', sans-serif;
     font-size: .875em;
     line-height: 1.285;
     margin: 0;
@@ -393,6 +395,8 @@ figure {
 }
 
 #projects h4 {
+  font-family: "M PLUS 2", sans-serif;
+  font-size: 1.3em;
   margin: 20px 0px 30px 0px;
   text-align: center;
   padding-top: 30px;
@@ -656,7 +660,7 @@ footer .social-icons p i:hover {
   }
 
   .project-item {
-    width: 40%;
+    width: 30%;
     padding: 10px 15px;
     height: 600px;
     margin: 5px;
@@ -773,7 +777,7 @@ footer .social-icons p i:hover {
 
   .project-item {
     margin: 15px;
-    height: 650px;
+    height: 600px;
   }
 
    #skills .content-wrapper {

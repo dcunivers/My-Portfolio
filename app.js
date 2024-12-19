@@ -16,4 +16,4 @@ document.querySelectorAll("section > div").forEach((item) => {
     });
   });
 
-  console.log();
+  //console.log();

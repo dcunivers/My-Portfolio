@@ -82,10 +82,10 @@ video {
 }
 
 body {
-    font-family: "Lexend", sans-serif;
+    font-family: "Manrope;" sans-serif;
     font-size: 1em;
     line-height: 20px;
-    background: #ece7e1;
+    background: #fdfaf5;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -102,7 +102,8 @@ a {
  }
 
 h1 {
-    font-family: "Playfair Display SC", serif;
+    font-family: "Roboto Serif", serif;
+    font-weight: 200;
     font-style: normal;
     font-size: 1.875em;
     margin: 0;
@@ -110,8 +111,11 @@ h1 {
   }
 
   h2 {
-    font-family: "M PLUS 2", sans-serif;
-    font-size: 1.75em;
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
   }
 
   h2, h3 {
@@ -120,25 +124,25 @@ h1 {
   }
 
   h3 {
-    font-family: "M PLUS 2", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 300;
-    font-size: 2em;
-    margin: 20px 0 40px 0;
+    font-size: 1em;
   }
 
-  h3, h4 {
+  h2, h4 {
     text-transform: uppercase;
   }
 
   h4 {
-   font-family: "Metal", serif;
-   font-size: 1.2em;
+   font-family: "Roboto Serif", serif;
+   font-weight: 300;
+   font-size: .75em;
    line-height: 1.2;
    width: 100%
   }
 
   p {
-    font-family: 'M PLUS 2', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: .875em;
     line-height: 1.285;
     margin: 0;
@@ -178,7 +182,7 @@ h1 {
   }
 
   #about, #skills {
-    color: #ece7e1;
+    color: #fdfaf5;
   }
 
 
@@ -289,23 +293,23 @@ button i {
   margin-top: 260px;
 }
 
-.section-left {
+.section-one {
   margin-top: 12%;
   padding: 40px 30px 60px 30px;
 }
 
-.section-right {
+.section-two {
   line-height: 1;
   text-transform: uppercase;
   padding: 20px;
 }
 
-.section-right ul {
-  font-family: "Metal", serif;
-  font-size: 4em;
+.section-two ul {
+  font-family: "Roboto Serif", serif;
+  font-size: 3em;
 }
 
-.section-right ul li:hover {
+.section-two ul li:hover {
   font-style: italic;
 }
 
@@ -314,8 +318,73 @@ button i {
   line-height: 1.2; 
 }
 
-.hero-subheading {
-  font-size: 1em;
+
+
+/* ----------  Projects ---------- */
+
+
+#projects h1 {
+  width: 100%;
+  text-align: center;
+}
+
+#projects .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 40px 20px;
+  width: 100%;
+} 
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.project-item h4 {
+  margin: 20px 0px 30px 0px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.project-description {
+  display: flex;
+  align-items: flex start;
+  flex-grow: 1;
+  padding-left: 10px;
+  flex-direction: column;
+}
+
+.project-description p {
+  margin-bottom: 30px;
+}
+
+.project-description h5 {
+  margin-bottom: 40px;
+}
+
+.project-description button {
+  margin: 0 100px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  box-shadow: 2px 2px 2px 2px gainsboro;
 }
 
 /* ----------  About ---------- */
@@ -348,18 +417,20 @@ figure {
   border-radius: 10px;
 }
 
-#about h2, 
-#about h4 {
-  color: #1a1818;
+#about h3, 
+#about h4,
+#about p {
+  color: #fdfaf5;
 }
 
-#about h2 {
-  padding-top: 30px; 
+#about h3 {
+  padding-top: 10px;
+  font-size: 1.9em;
   text-align: center;
 }
 
 #about h4 {
-  font-family: "Metal", serif;
+  font-family: "Roboto Serif", serif;
   padding-bottom: 30px;
   text-align: center;
   text-transform: none;
@@ -371,68 +442,6 @@ figure {
   text-align: left;
   line-height: 25px;
 }
-
-/* ----------  Projects ---------- */
-
-
-#projects h3 {
-  width: 100%;
-  text-align: center;
-}
-
-#projects .content-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  padding: 40px 0;
-} 
-
-.project-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
-
-#projects h4 {
-  font-family: "M PLUS 2", sans-serif;
-  font-size: 1.3em;
-  margin: 20px 0px 30px 0px;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.project-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px #1a1818;
-  border-radius: 10px;
-  padding: 5px;
-  margin-bottom: 30px;
-  background: #ece7e1;
-}
-
-.project-item:hover {
-  box-shadow: 2px 2px 2px 2px gainsboro;
-}
-
-.project-description {
-  display: flex;
-  align-items: flex start;
-  flex-grow: 1;
-  padding-left: 10px;
-  flex-direction: column;
-}
-
-.project-description p {
-  margin-bottom: 30px;
-}
-
-.project-description h5 {
-  margin-bottom: 40px;
-}
-
 
 /******** Skills *********/
 
@@ -446,8 +455,8 @@ figure {
 }
 
 .skill-container p {
-  background: #ece7e1;
-  border: solid 1px #ece7e1;
+  background: #fdfaf5;
+  border: solid 1px #fdfaf5;
   color: #1a1818;
   border-radius: 10px;
   padding: 15px 50px;
@@ -461,7 +470,7 @@ figure {
 footer {
   flex-direction: column;
   text-align: center;
-  color: #ece7e1;
+  color: #fdfaf5;
   height: 75vh;
 }
 
@@ -471,7 +480,7 @@ footer h4 {
 
 footer p {
   margin: 0;
-  color: #ece7e1;
+  color: #fdfaf5;
 }
 
 footer .content-wrapper {
@@ -483,7 +492,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ece7e1;
+  color:#fdfaf5;
   padding: 20px;
 }
 
@@ -501,7 +510,7 @@ p#email-header {
   font-size: .8em;
   font-style: normal;
   line-height: 1.2;
-  color: #ece7e1;
+  color: #fdfaf5;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -542,13 +551,10 @@ footer .social-icons p i:hover {
     h1 {
       font-size: 2.5rem;
     }
-  
-    h3 {
-      font-size: 3rem;
-    }
+
   
     h4 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   
     h5 {
@@ -575,7 +581,7 @@ footer .social-icons p i:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    background: #ece7e1;
+    background: #fdfaf5;
     transition: all .3s ease;
     padding: 20px 0;
     z-index: 1000;
@@ -606,8 +612,8 @@ footer .social-icons p i:hover {
 
   /* Hero Area */
 
-  .section-right ul {
-    font-size: 6em;
+  .section-two ul {
+    font-size: 5em;
   }
 
   
@@ -732,7 +738,7 @@ footer .social-icons p i:hover {
  }
 
   #about {
-    padding: 140px 0px;
+    padding: 90px 0px;
   }
 
   #about h2, #about h4 {
@@ -755,12 +761,8 @@ footer .social-icons p i:hover {
     width: 100%;
  }
 
- .section-right {
+ .section-two {
   padding: 0px 20px 20px 80px;
- }
-
- .img-section {
-
  }
 
   #profile-img {
@@ -776,7 +778,7 @@ footer .social-icons p i:hover {
   }
 
   .project-item {
-    margin: 15px;
+    margin: 10px;
     height: 600px;
   }
 

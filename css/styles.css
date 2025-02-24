@@ -622,8 +622,9 @@ footer .social-icons p i:hover {
     height: 100%;
   }
 
-  #about h2 {
+  #about h3 {
     padding: 0px; 
+    text-align: left;
   }
   
   #profile-img {
